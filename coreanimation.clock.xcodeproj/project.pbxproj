@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		428CD1001EBB3F01007D43B3 /* ClockFace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428CD0FF1EBB3F01007D43B3 /* ClockFace.jpg */; };
+		428CD1031EBB3FE1007D43B3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428CD1021EBB3FE1007D43B3 /* QuartzCore.framework */; };
 		42ED02271E9D2BDC00E5EAEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ED02261E9D2BDC00E5EAEB /* main.m */; };
 		42ED022A1E9D2BDC00E5EAEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ED02291E9D2BDC00E5EAEB /* AppDelegate.m */; };
 		42ED022D1E9D2BDC00E5EAEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ED022C1E9D2BDC00E5EAEB /* ViewController.m */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		428CD0FF1EBB3F01007D43B3 /* ClockFace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ClockFace.jpg; sourceTree = "<group>"; };
+		428CD1021EBB3FE1007D43B3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		42ED02221E9D2BDC00E5EAEB /* coreanimation.clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreanimation.clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42ED02261E9D2BDC00E5EAEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42ED02281E9D2BDC00E5EAEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,17 +37,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				428CD1031EBB3FE1007D43B3 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		428CD1011EBB3FE1007D43B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				428CD1021EBB3FE1007D43B3 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		42ED02191E9D2BDB00E5EAEB = {
 			isa = PBXGroup;
 			children = (
 				42ED02241E9D2BDC00E5EAEB /* coreanimation.clock */,
 				42ED02231E9D2BDC00E5EAEB /* Products */,
+				428CD1011EBB3FE1007D43B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +72,7 @@
 		42ED02241E9D2BDC00E5EAEB /* coreanimation.clock */ = {
 			isa = PBXGroup;
 			children = (
+				428CD0FF1EBB3F01007D43B3 /* ClockFace.jpg */,
 				42ED02281E9D2BDC00E5EAEB /* AppDelegate.h */,
 				42ED02291E9D2BDC00E5EAEB /* AppDelegate.m */,
 				42ED022B1E9D2BDC00E5EAEB /* ViewController.h */,
@@ -140,6 +155,7 @@
 				42ED02351E9D2BDC00E5EAEB /* LaunchScreen.storyboard in Resources */,
 				42ED02321E9D2BDC00E5EAEB /* Assets.xcassets in Resources */,
 				42ED02301E9D2BDC00E5EAEB /* Main.storyboard in Resources */,
+				428CD1001EBB3F01007D43B3 /* ClockFace.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +325,7 @@
 				42ED023B1E9D2BDC00E5EAEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
